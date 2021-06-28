@@ -210,13 +210,13 @@ class Login extends Component {
           </div>
         </div>
 
-        <button
-          className="btnGuestLogin"
-          type="submit"
-          onClick={this.onGuestLoginPress}
-        >
-          Guest User login
-        </button>
+        {/*<button*/}
+        {/*  className="btnGuestLogin"*/}
+        {/*  type="submit"*/}
+        {/*  onClick={this.onGuestLoginPress}*/}
+        {/*>*/}
+        {/*  Guest User login*/}
+        {/*</button>*/}
         <h3>--OR--</h3>
 
         <button className="btnLogin" type="submit" onClick={this.onLoginPress}>
